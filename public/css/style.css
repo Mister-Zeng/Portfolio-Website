@@ -580,21 +580,20 @@ footer {
 
 
 
-
 @media screen and (max-width:600px) {
-.contact-form-horizontal-line {
-  width: 8rem;
-  margin-left: 10.5rem;
-}
-
 .projects-horizontal-line {
-  margin-left: 7rem;
-  width: 12rem;;
+  margin-left: 8rem;
+  width: 10rem;;
 }
 
 .about-horizontal-line {
-  width: 11rem;
+  width: 9rem;
   margin-left: 7.5rem;
+}
+
+.contact-form-horizontal-line {
+  width: 8rem;
+  margin-left: 10.5rem;
 }
 }
 
