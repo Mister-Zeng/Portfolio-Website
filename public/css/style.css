@@ -36,11 +36,7 @@ body {
   line-height: 1.5;
   font-family: 'Manrope', sans-serif;
   background-color: black;
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 100%;
 }
 
 /* A elements that don't have a class get default styles */
@@ -163,9 +159,6 @@ select {
   position: relative;
   bottom: 370px;
   padding: 5px;
-}
-
-.header-icon:hover {
   border-radius: 50%;
   border: 1px #cccccc solid;
 }
@@ -175,7 +168,7 @@ select {
   height: 7rem;
   background-color: #ffffff80;
   position:relative;
-  bottom: 140px;
+  bottom: 120px;
   margin-left:80px;
 }
 
@@ -541,16 +534,12 @@ footer {
   }
 
   .contact-form {
-    width: 65%;
+    width: 80%;
   }
 
   .project-description {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .project-description{
-    font-size: 14px;
+    font-size: 12px;
+    padding: 5px;
   }
 
   .view-code-button, .watch-live-button {
@@ -566,7 +555,40 @@ footer {
     width: 70%;
   }
   
+  .skill-heading {
+    padding: 0;
+  }
+
   .circle-container {
     margin: 20px;
   }
+
+  .contact-form-horizontal-line {
+    width: 6rem;
+  }
+
+  .projects-horizontal-line {
+    width: 6rem;;
+  }
+
+  .about-horizontal-line {
+    width: 6rem;;
+  }
+
+  .header-icon {
+    margin: 20px 0 0 30px;
+    position: relative;
+    bottom: 370px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px #cccccc solid;
+    zoom: .8;
+  }
+  
+  .first-section-horizontal-line {
+    height: 5rem;
+    bottom: 100px;
+    margin-left:40px;
+  }
+
 }
