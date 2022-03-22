@@ -554,6 +554,19 @@ footer {
   .project-description {
     margin: 20px;
   }
+
+  .skills-container {
+    flex-wrap: wrap;
+  }
+
+  .circle-container {
+    margin: 20px;
+  }
+
+  .project-description {
+    font-size: 12px;
+    padding: 5px;
+  }
 }
 
 
@@ -592,11 +605,6 @@ footer {
     width: 80%;
   }
 
-  .project-description {
-    font-size: 12px;
-    padding: 5px;
-  }
-
   .view-code-button, .watch-live-button {
     margin: 0 15px 0 15px;
   }
@@ -605,16 +613,8 @@ footer {
     width: 90%;
   }
   
-  .skills-container {
-    flex-wrap: wrap;
-  }
-  
   .skill-heading {
     padding: 0;
-  }
-
-  .circle-container {
-    margin: 20px;
   }
 
   .contact-form-horizontal-line {
