@@ -472,7 +472,7 @@ footer {
   color: white;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
   .first-section {
     position: relative;
     bottom: 20px;
