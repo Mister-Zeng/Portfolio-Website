@@ -37,6 +37,10 @@ body {
   font-family: 'Manrope', sans-serif;
   background-color: black;
   min-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* A elements that don't have a class get default styles */
