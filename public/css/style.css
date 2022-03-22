@@ -94,46 +94,53 @@ select {
   align-items: center;
   background-color: rgba(0,0,0,.3);
   padding-top: 20px;
-
 }
 
-.nav-list {
+.nav-menu {
   display: flex;
-  font-weight: 800;;
+  font-weight: 800;
   position: relative;
   right: 3rem;
-  list-style: none;
   font-size: 18px;
+  gap:30px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-button {
-  position:relative;
-  margin: 0 15px 0 15px;
+li {
+  list-style: none;
+}
+
+.nav-link { 
+  transition: 0.7s ease;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  width: 40px;
+  height: 35px;
+}
+
+.bar {
+  display: block;
+  background-color:white;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: white;
   text-shadow: 2px 3px 10px;
   text-decoration: none;
-}
-
-.nav-button::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  transform: scaleX(0);
-  transition: transform 0.4s ease;
-  transform-origin: bottom right;
-  background-color: rgb(30, 83, 255);
-}
-
-.nav-button:hover::after {
-  transform-origin: botom left;
-  transform: scaleX(1);
-}
-
-.nav-button:hover {
-  color: white;
 }
 
 .first-section {
@@ -152,6 +159,7 @@ select {
 
 .header-icon-container {
   height: 0;
+  position: absolute;
 }
 
 .header-icon {
@@ -220,6 +228,7 @@ select {
 .sub-heading{
   color: #F1C40F;
   display: block;
+  font-size: 20px;
   margin: 40px 0 30px 20px;
 }
 
@@ -453,7 +462,7 @@ footer {
 }
 
 .footer-icon {
-  margin: 0 50px 0 50px;
+  margin: 0 50px 0 35px;
   padding: 5px;
   border-radius: 50%;
   border: 1px #F1C40F solid;
@@ -515,6 +524,25 @@ footer {
 
 
 @media screen and (max-width:425px) {
+  .nav-item {
+    display: none;
+  }
+
+  .nav-bar {
+    align-items: center;
+  }
+  .hamburger {
+    display: block;
+    margin: 0 20px 20px 0;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(3) {
+    opacity: 0;
+  }
+
   #job-title {
     font-size: .8rem;
   }
@@ -527,6 +555,17 @@ footer {
   @keyframes typing {
   from { width: 0 }
   to { width: 300px }
+  }
+  
+  #headshot {
+    width: 80%;
+  }
+  
+  .intro-description {
+    font-size: 15px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 50px 0;
   }
 
   #name {
@@ -552,7 +591,6 @@ footer {
   
   .skills-container {
     flex-wrap: wrap;
-    width: 70%;
   }
   
   .skill-heading {
@@ -586,8 +624,8 @@ footer {
   }
   
   .first-section-horizontal-line {
-    height: 5rem;
-    bottom: 100px;
+    height: 4.5rem;
+    bottom: 80px;
     margin-left:40px;
   }
 
