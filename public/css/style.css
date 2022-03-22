@@ -171,10 +171,10 @@ li {
 
 .first-section-horizontal-line {
   width: 2px;
-  height: 7rem;
+  height: 6rem;
   background-color: #ffffff80;
   position:relative;
-  bottom: 120px;
+  bottom: 110px;
   margin-left:80px;
 }
 
