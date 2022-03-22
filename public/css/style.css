@@ -265,6 +265,7 @@ li {
   padding-left: 40px;
   color: wheat;
   margin-right: 40px;
+  text-align: center;
 }
 
 .skill-heading {
@@ -567,6 +568,34 @@ footer {
     font-size: 12px;
     padding: 5px;
   }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .skill-heading {
+    padding: 0;
+  }
+}
+
+
+
+
+@media screen and (max-width:600px) {
+.contact-form-horizontal-line {
+  width: 8rem;
+  margin-left: 10.5rem;
+}
+
+.projects-horizontal-line {
+  margin-left: 7rem;
+  width: 12rem;;
+}
+
+.about-horizontal-line {
+  width: 11rem;
+  margin-left: 7.5rem;
+}
 }
 
 
