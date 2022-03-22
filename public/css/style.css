@@ -264,6 +264,7 @@ select {
 .intro-description {
   padding-left: 40px;
   color: wheat;
+  margin-right: 40px;
 }
 
 .skill-heading {
