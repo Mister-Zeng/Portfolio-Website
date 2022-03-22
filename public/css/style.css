@@ -103,7 +103,6 @@ select {
 
 .nav-list {
   display: flex;
-  gap: 30px; 
   font-weight: 800;;
   position: relative;
   right: 3rem;
@@ -113,6 +112,7 @@ select {
 
 .nav-button {
   position:relative;
+  margin: 0 15px 0 15px;
   color: white;
   text-shadow: 2px 3px 10px;
   text-decoration: none;
