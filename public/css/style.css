@@ -473,6 +473,43 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+  .hamburger {
+    display: block;
+    margin: 0 20px 20px 0;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    transition: 0.3s;
+    flex-direction: column;
+    left: -100%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    gap: 0;
+    top: 80px;
+    background-color: rgba(0,0,0,.3);
+  }
+
+  .nav-item {
+    margin: 16px o;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+  
   .first-section {
     position: relative;
     bottom: 20px;
@@ -522,47 +559,6 @@ footer {
 
 
 @media screen and (max-width:425px) {
-  .hamburger {
-    display: block;
-    margin: 0 20px 20px 0;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .nav-menu {
-    transition: 0.3s;
-    flex-direction: column;
-    left: -100%;
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    gap: 0;
-    top: 80px;
-    background-color: rgba(0,0,0,.3);
-  }
-
-  .nav-item {
-    margin: 16px o;
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
-  
-  .nav-bar {
-    align-items: center;
-  }
-
   #job-title {
     font-size: .8rem;
   }
@@ -623,14 +619,17 @@ footer {
 
   .contact-form-horizontal-line {
     width: 6rem;
+    margin-left: 10rem;
   }
 
   .projects-horizontal-line {
-    width: 6rem;;
+    margin-left: 6.5rem;
+    width: 10rem;;
   }
 
   .about-horizontal-line {
-    width: 6rem;;
+    width: 9rem;
+    margin-left: 7rem;
   }
 
   .header-icon {
