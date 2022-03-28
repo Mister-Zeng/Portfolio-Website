@@ -152,7 +152,7 @@ li {
 }
 
 .first-section-container {
-  min-width: 100vw;
+  max-width: 100vw;
 }
 
 .header-icon-container {
