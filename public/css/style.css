@@ -169,6 +169,10 @@ li {
   border: 1px #cccccc solid;
 }
 
+.header-icon:hover {
+  border: 1px #F1C40F solid;;
+}
+
 .first-section-horizontal-line {
   width: 2px;
   height: 6rem;
@@ -465,6 +469,10 @@ footer {
   padding: 5px;
   border-radius: 50%;
   border: 1px #F1C40F solid;
+}
+
+.footer-icon:hover {
+  border: 1px #cccccc solid;
 }
 
 .copyright {
