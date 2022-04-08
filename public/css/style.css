@@ -200,6 +200,7 @@ li {
 #job-title {
   font-weight: bolder;
   font-size: 25px;
+  margin: 10px 0 10px 0; 
 }
 
 #description {
