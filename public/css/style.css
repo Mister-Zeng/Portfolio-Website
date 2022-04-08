@@ -37,6 +37,8 @@ body {
   font-family: 'Manrope', sans-serif;
   background-color: black;
   width: 100%;
+  height: 100vh;
+  padding: 0;
 }
 
 /* A elements that don't have a class get default styles */
@@ -73,6 +75,11 @@ select {
   transition-duration: 0.01ms !important;
   scroll-behavior: auto !important;
   }
+}
+
+#particles-js {
+  height: 100%;
+  background: black;
 }
 
 #logo{
