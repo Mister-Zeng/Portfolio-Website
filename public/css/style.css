@@ -79,6 +79,7 @@ select {
 #particles-js {
   height: 100%;
   background: red;
+  z-index: -5;
 }
 
 #logo{
