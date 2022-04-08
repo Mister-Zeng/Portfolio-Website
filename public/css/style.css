@@ -192,6 +192,8 @@ li {
   position:fixed;
   z-index: -5;
   object-fit:cover;
+  min-width: 100%;
+  min-height: 100%;
   object-position: center;
 }
 
