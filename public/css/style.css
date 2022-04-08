@@ -189,7 +189,7 @@ li {
 
 #background-image {
   opacity: 50%;
-  position:fixed;
+  position:relative;
   z-index: -5;
   object-fit:cover;
   min-width: 100%;
