@@ -11,7 +11,7 @@ This is a solution my portfolio website.
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- 
+
 ## Overview
 
 ### The challenge
