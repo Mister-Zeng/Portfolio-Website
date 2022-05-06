@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://github.com/Mister-Zeng/Portfolio-Website]
+- Solution URL: [https://github.com/Mister-Zeng/Portfolio-Website]
+- Live Site URL: [https://mister-zeng.github.io/Portfolio-Website/]
 
 ## My process
 
@@ -43,5 +43,5 @@ Users should be able to:
 
 ## Author
 
-- Solution URL: [https://github.com/Mister-Zeng/Advice-Generator-App-Inserting-API]
-- Live Site URL: [https://mister-zeng.github.io/Advice-Generator-App-Inserting-API/]
+- - Website - [Jason Zeng](https://mister-zeng.github.io/Portfolio-Website/)
+- Twitter - [@misterzeng](https://www.twitter.com/misterzeng)
