@@ -43,5 +43,5 @@ Users should be able to:
 
 ## Author
 
-- - Website - [Jason Zeng](https://mister-zeng.github.io/Portfolio-Website/)
+- Website - [Jason Zeng](https://mister-zeng.github.io/Portfolio-Website/)
 - Twitter - [@misterzeng](https://www.twitter.com/misterzeng)
