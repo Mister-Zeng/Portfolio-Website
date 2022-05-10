@@ -280,9 +280,15 @@ li {
 
 .intro-description {
   padding-left: 40px;
-  color: wheat;
+  color: whitesmoke;
   margin-right: 40px;
   text-align: center;
+  font-size: 25px;
+  font-family: sans-serif
+}
+
+#intro-bold {
+  color: #F1C40F;
 }
 
 .skill-heading {
