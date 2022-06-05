@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon"
-        href="https://github.com/Mister-Zeng/Portfolio-Website/blob/main/images/black.png?raw=true" />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/black.png" />
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/style.css">
     <script src="public/js/bootstrap.min.js"></script>
@@ -20,8 +19,8 @@
 <body>
     <main>
         <nav class="nav-bar">
-            <a class="navbar-brand" href="#" target="_blank" rel="noopener noreferrer">
-                <img src="/images/white.png" alt="logo" id="logo" width="50" height="50">
+            <a class="navbar-brand" href="#" rel="noopener noreferrer">
+                <img src="./images/white.png" alt="logo" id="logo" width="50" height="50">
             </a>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -61,19 +60,19 @@
                 <div class="header-icon-container">
                     <a href="https://github.com/Mister-Zeng" class="anchor-icon" target="_blank"
                         rel="noopener noreferrer">
-                        <img src="/images/github-grey-icon.svg" class="header-icon" alt="Github">
+                        <img src="./images/github-grey-icon.svg" class="header-icon" alt="Github">
                     </a>
                     <a href="https://twitter.com/misterzeng" class="anchor-icon" target="_blank"
                         rel="noopener noreferrer">
-                        <img src="/images/twitter-grey-icon.svg" class="header-icon" alt="Twitter">
+                        <img src="./images/twitter-grey-icon.svg" class="header-icon" alt="Twitter">
                     </a>
                     <a href="https://www.linkedin.com/in/misterzeng/" class="anchor-icon" target="_blank"
                         rel="noopener noreferrer">
-                        <img src="/images/linkedin-grey-icon.svg" class="header-icon" alt="LinkedIn">
+                        <img src="./images/linkedin-grey-icon.svg" class="header-icon" alt="LinkedIn">
                     </a>
                     <a href="mailto:officialjasonzeng@gmail.com" class="anchor-icon" target="_blank"
                         rel="noopener noreferrer">
-                        <img src="/images/email-grey-icon.svg" class="header-icon" alt="Email">
+                        <img src="./images/email-grey-icon.svg" class="header-icon" alt="Email">
                     </a>
                 </div>
                 <div class="first-section-horizontal-line"></div>
@@ -93,48 +92,64 @@
                         knowledge, I am actively learning and expanding my knowledge everyday and staying up to date
                         with trends and current standards in the industry.
                     </p>
-                    <img src="/images/headshot.png" id="headshot" alt="headshot">
+                    <img src="./images/headshot.png" id="headshot" alt="headshot">
                 </div>
             </div>
-            <div class="skill-heading reveal" id="skills">
-                <h6>HERE ARE A FEW SKILLS I HAVE:</h6>
-            </div>
+            <h6 class="skill-heading reveal">Technical Skills</h6>
             <div class="skills-container reveal">
                 <div class="html circle-container">
                     <div class="outer-circle">
-                        <img src="/images/html.svg" class="circle" alt="HTML">
+                        <img src="./images/html.svg" class="circle" alt="HTML">
                     </div>
                     <p>HTML</p>
                 </div>
                 <div class="css circle-container">
                     <div class="outer-circle">
-                        <img src="/images/css.svg" class="circle" alt="CSS">
+                        <img src="./images/css.svg" class="circle" alt="CSS">
                     </div>
                     <p>CSS</p>
                 </div>
-                <div class="javascript circle-container">
-                    <div class="outer-circle">
-                        <img src="images/javascript.svg" class="circle" alt="Javascript">
-                    </div>
-                    <p>Javascript</p>
-                </div>
                 <div class="bootstrap circle-container">
                     <div class="outer-circle">
-                        <img src="/images/bootstrap.svg" class="circle" alt="Bootstrap">
+                        <img src="./images/bootstrap.svg" class="circle" alt="Bootstrap">
                     </div>
                     <p>Bootstrap</p>
                 </div>
+                <div class="javascript circle-container">
+                    <div class="outer-circle">
+                        <img src="./images/javascript.svg" class="circle" alt="Javascript">
+                    </div>
+                    <p>Javascript</p>
+                </div>
+                <div class="react circle-container">
+                    <div class="outer-circle">
+                        <img src="./images/react.svg" class="circle" alt="React">
+                    </div>
+                    <p>React</p>
+                </div>
                 <div class="git circle-container">
                     <div class="outer-circle">
-                        <img src="/images/icons8-git.svg" class="circle" alt="Git">
+                        <img src="./images/git.svg" class="circle" alt="Git">
                     </div>
                     <p>Git</p>
                 </div>
                 <div class="node circle-container">
                     <div class="outer-circle">
-                        <img src="/images/node.svg" class="circle" alt="Node">
+                        <img src="./images/node.svg" class="circle" alt="Node">
                     </div>
                     <p>Node</p>
+                </div>
+                <div class="express circle-container">
+                    <div class="outer-circle">
+                        <img src="./images/express.svg" class="circle" alt="Express">
+                    </div>
+                    <p>Express</p>
+                </div>
+                <div class="mongodb circle-container">
+                    <div class="outer-circle">
+                        <img src="./images/mongodb.svg" class="circle" alt="MongoDB">
+                    </div>
+                    <p>MongoDB</p>
                 </div>
             </div>
         </section>
@@ -147,93 +162,96 @@
                 </div>
             </div>
             <div class="projects-container">
-                <div class="projects-sub-container reveal">
-                    <div class="advice-generator">
-                        <h4>Advice Generator</h4>
-                        <a href="https://mister-zeng.github.io/Advice-Generator-App-Inserting-API/" target="_blank"
-                            rel="noopener noreferrer">
-                            <img src="/images/advice-generator.png" alt="Advice Generator">
-                        </a>
-                        <p class="project-skills">
-                            HTML, CSS, Javascript, API's, GitHub
-                        </p>
-                        <p class="date-created">
-                            Created on February 2022
-                        </p>
-                    </div>
-                    <div class="button-container reveal">
-                        <button class="view-code-button">
-                            <a href="https://github.com/Mister-Zeng/Advice-Generator-App-Inserting-API" target="_blank"
-                                rel="noopener noreferrer">
-                                View Code
-                            </a>
-                        </button>
-                        <button class="watch-live-button">
+                <div>
+                    <div class="projects-sub-container reveal">
+                        <div class="advice-generator">
+                            <h4>Advice Generator</h4>
                             <a href="https://mister-zeng.github.io/Advice-Generator-App-Inserting-API/" target="_blank"
                                 rel="noopener noreferrer">
-                                Watch Live
+                                <img class="project-image" src="./images/advice-generator.png" alt="Advice Generator">
                             </a>
-                        </button>
+                            <p class="project-skills">
+                                HTML, CSS, Javascript, API's, GitHub
+                            </p>
+                            <p class="date-created">
+                                Created on February 2022
+                            </p>
+                            <div class="button-container">
+                                <button class="view-code-button">
+                                    <a href="https://github.com/Mister-Zeng/Advice-Generator-App-Inserting-API"
+                                        target="_blank" rel="noopener noreferrer">
+                                        View Code
+                                    </a>
+                                </button>
+                                <button class="watch-live-button">
+                                    <a href="https://mister-zeng.github.io/Advice-Generator-App-Inserting-API/"
+                                        target="_blank" rel="noopener noreferrer">
+                                        Watch Live
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="projects-sub-container reveal">
-                    <div class="ip-address-tracker">
-                        <h4>IP Address Tracker</h4>
-                        <a href="https://mister-zeng.github.io/IP-Address-Tracker/" target="_blank"
-                            rel="noopener noreferrer">
-                            <img src="/images/ip-address.png" alt="IP Address Tracker">
-                        </a>
-                        <p class="project-skills">
-                            HTML, CSS, Javascript, API's, GitHub
-                        </p>
-                        <p class="date-created">
-                            Created on March 2022
-                        </p>
-                    </div>
-                    <div class="button-container reveal">
-                        <button class="view-code-button">
-                            <a href="https://github.com/Mister-Zeng/IP-Address-Tracker" target="_blank"
-                                rel="noopener noreferrer">
-                                View Code
-                            </a>
-                        </button>
-                        <button class="watch-live-button">
+                    <div class="projects-sub-container reveal">
+                        <div class="ip-address-tracker">
+                            <h4>IP Address Tracker</h4>
                             <a href="https://mister-zeng.github.io/IP-Address-Tracker/" target="_blank"
                                 rel="noopener noreferrer">
-                                Watch Live
+                                <img class="project-image" src="./images/ip-address.png" alt="IP Address Tracker">
                             </a>
-                        </button>
+                            <p class="project-skills">
+                                HTML, CSS, Javascript, API's, GitHub
+                            </p>
+                            <p class="date-created">
+                                Created on March 2022
+                            </p>
+                            <div class="button-container">
+                                <button class="view-code-button">
+                                    <a href="https://github.com/Mister-Zeng/IP-Address-Tracker" target="_blank"
+                                        rel="noopener noreferrer">
+                                        View Code
+                                    </a>
+                                </button>
+                                <button class="watch-live-button">
+                                    <a href="https://mister-zeng.github.io/IP-Address-Tracker/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        Watch Live
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="projects-sub-container reveal">
-                    <div class="tip-calculator">
-                        <h4>Tip Calculator</h4>
-                        <a href="https://mister-zeng.github.io/Tip-Split-Calculator/" target="_blank"
-                            rel="noopener noreferrer">
-                            <img src="/images/tip-calculator.png" alt="Tip Calculator">
-                        </a>
-                        <p class="project-skills">
-                            HTML, CSS, Javascript, GitHub
-                        </p>
-                        <p class="date-created">
-                            Created on March 2022
-                        </p>
-                    </div>
-                    <div class="button-container">
-                        <button class="view-code-button">
-                            <a href="https://github.com/Mister-Zeng/Tip-Split-Calculator" target="_blank"
-                                rel="noopener noreferrer">
-                                View Code
-                            </a>
-                        </button>
-                        <button class="watch-live-button">
+                <div>
+                    <div class="projects-sub-container reveal">
+                        <div class="tip-calculator">
+                            <h4>Tip Calculator</h4>
                             <a href="https://mister-zeng.github.io/Tip-Split-Calculator/" target="_blank"
                                 rel="noopener noreferrer">
-                                Watch Live
+                                <img class="project-image" src="./images/tip-calculator.png" alt="Tip Calculator">
                             </a>
-                        </button>
+                            <p class="project-skills">
+                                HTML, CSS, Javascript, GitHub
+                            </p>
+                            <p class="date-created">
+                                Created on March 2022
+                            </p>
+                            <div class="button-container">
+                                <button class="view-code-button">
+                                    <a href="https://github.com/Mister-Zeng/Tip-Split-Calculator" target="_blank"
+                                        rel="noopener noreferrer">
+                                        View Code
+                                    </a>
+                                </button>
+                                <button class="watch-live-button">
+                                    <a href="https://mister-zeng.github.io/Tip-Split-Calculator/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        Watch Live
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -272,21 +290,21 @@
             </div>
         </section>
     </main>
-    <script src="public/js/appp.js"></script>
+    <script src="public/js/app.js"></script>
 </body>
 <footer>
     <div class="footer-container">
         <a href="https://github.com/Mister-Zeng" target="_blank" rel="noopener noreferrer">
-            <img src="/images/github-orange-icon.svg" class="footer-icon" alt="Github">
+            <img src="./images/github-orange-icon.svg" class="footer-icon" alt="Github">
         </a>
         <a href="https://twitter.com/misterzeng" target="_blank" rel="noopener noreferrer">
-            <img src="/images/twitter-orange-icon.svg" class="footer-icon" alt="Twitter">
+            <img src="./images/twitter-orange-icon.svg" class="footer-icon" alt="Twitter">
         </a>
         <a href="https://www.linkedin.com/in/misterzeng/" target="_blank" rel="noopener noreferrer">
-            <img src="/images/linkedin-orange-icon.svg" class="footer-icon" alt="LinkedIn">
+            <img src="./images/linkedin-orange-icon.svg" class="footer-icon" alt="LinkedIn">
         </a>
         <a href="mailto:officialjasonzeng@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img src="/images/email-orange-icon.svg" class="footer-icon" alt="Email">
+            <img src="./images/email-orange-icon.svg" class="footer-icon" alt="Email">
         </a>
     </div>
     <div class="copyright">
