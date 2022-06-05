@@ -381,7 +381,7 @@ li {
 }
 
 .projects-container {
-  width: 75%;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -391,7 +391,6 @@ li {
   color: white;
   display: flex;
   flex-direction: column;
-
 }
 
 .tip-calculator,
@@ -403,7 +402,6 @@ li {
   align-items: center;
   flex-direction: column;
   border-radius: 10px;
-  width: 600px;
 }
 
 .project-image {
@@ -432,6 +430,7 @@ h4 {
   flex-direction: row;
   justify-content: space-evenly;
   margin: 20px 0 40px 0;
+  max-width: 100%;
 }
 
 .view-code-button,
@@ -465,7 +464,7 @@ h4 {
 }
 
 .form-section {
-  background-color: rgb(31, 30, 30);
+  background-color: #3e5860;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -483,7 +482,7 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   color: white;
-  background-color: black;
+  background-color: #324449;
   padding: 35px;
   margin: 20px;
   width: 50%;
@@ -519,6 +518,12 @@ footer {
   margin-top: 20px;
   font-family: 'Courier New', Courier, monospace;
   color: white;
+}
+
+@media screen and (max-width:1024px) {
+  .projects-container {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -609,6 +614,8 @@ footer {
 
   .project-description {
     margin: 20px;
+    font-size: 12px;
+    padding: 5px;
   }
 
   .skills-container {
@@ -617,11 +624,6 @@ footer {
 
   .circle-container {
     margin: 20px;
-  }
-
-  .project-description {
-    font-size: 12px;
-    padding: 5px;
   }
 
   .contact-form {
