@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/Mister-Zeng/Portfolio-Website/blob/main/images/Portfolio_Website_Mockup.png?raw=true)
+![](./images/Portfolio_Website_Mockup.png)
 
 ### Links
 
