@@ -107,6 +107,10 @@ select {
   align-items: center;
 }
 
+.nav-menu li:hover {
+  color: lightblue;
+}
+
 li {
   list-style: none;
 }
@@ -171,7 +175,6 @@ li {
 
 .header-icon:hover {
   border: 1px #F1C40F solid;
-  ;
 }
 
 .first-section-horizontal-line {
