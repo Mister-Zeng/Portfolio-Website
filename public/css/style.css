@@ -395,7 +395,9 @@ li {
 
 .tip-calculator,
 .advice-generator,
-.ip-address-tracker {
+.ip-address-tracker,
+.flashgram,
+.ai-ask-me {
   background-color: #324449;
   padding: 30px;
   display: flex;
