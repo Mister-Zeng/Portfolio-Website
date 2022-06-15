@@ -557,12 +557,12 @@ footer {
     position: fixed;
     text-align: center;
     gap: 0;
-    top: 80px;
+    top: 70px;
     background-color: rgba(0, 0, 0, .3);
   }
 
   .nav-item {
-    margin: 16px o;
+    margin: 16px;
   }
 
   .nav-menu.active {
