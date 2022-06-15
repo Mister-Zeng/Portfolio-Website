@@ -107,6 +107,10 @@ select {
   align-items: center;
 }
 
+.nav-menu li:hover {
+  color: lightblue;
+}
+
 li {
   list-style: none;
 }
@@ -171,7 +175,6 @@ li {
 
 .header-icon:hover {
   border: 1px #F1C40F solid;
-  ;
 }
 
 .first-section-horizontal-line {
@@ -393,11 +396,11 @@ li {
   flex-direction: column;
 }
 
+.flashgram,
+.ai-ask-me,
 .tip-calculator,
 .advice-generator,
-.ip-address-tracker,
-.flashgram,
-.ai-ask-me {
+.ip-address-tracker {
   background-color: #324449;
   padding: 30px;
   display: flex;
@@ -429,7 +432,7 @@ h4 {
 
 .button-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row !important;
   justify-content: space-evenly;
   margin: 20px 0 40px 0;
   max-width: 100%;
@@ -609,6 +612,8 @@ footer {
   }
 
   .advice-generator,
+  .ai-ask-me,
+  .flashgram,
   .ip-address-tracker,
   .tip-calculator {
     padding: 10px;
@@ -700,7 +705,7 @@ footer {
 
   .view-code-button,
   .watch-live-button {
-    margin: 0 15px 0 15px;
+    margin: 0 10px 0 10px;
   }
 
   .projects-container {
