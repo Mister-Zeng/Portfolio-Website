@@ -335,7 +335,7 @@
                 </div>
             </div>
             <div class="contact-form reveal">
-                <form class="row g-3">
+                <form class="row g-3" id="contactForm" method="POST">
                     <div class="col-md-6">
                         <label for="full-name" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="full-name" placeholder="Full Name">
@@ -344,17 +344,14 @@
                         <label for="email-address" class="form-label">Email Address</label>
                         <input type="email" class="form-control" id="email-address" placeholder="Email Address">
                     </div>
-                    <div class="col-12">
-                        <label for="subject" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                    </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" rows="4"
                             placeholder="Type your message here"></textarea>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-secondary float-end btn-warning">Submit</button>
+                        <button type="submit" id="formSubmit"
+                            class="btn btn-secondary float-end btn-warning">Submit</button>
                     </div>
                 </form>
             </div>
@@ -367,6 +364,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("jDY5lropf2_IXLQcv");
+        })();
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 <footer>
     <div class="footer-container">
