@@ -174,7 +174,9 @@ li {
 }
 
 .header-icon:hover {
-  border: 1px #F1C40F solid;
+  border: 1px lightblue solid;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
 }
 
 .first-section-horizontal-line {
@@ -516,7 +518,8 @@ footer {
 }
 
 .footer-icon:hover {
-  border: 1px #cccccc solid;
+  box-shadow: 0 0 15px #F1C40F;
+  transition: all 0.5s ease;
 }
 
 .copyright {
