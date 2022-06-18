@@ -458,8 +458,18 @@ h4 {
 
 .watch-live-button {
   background-color: #6f8b97;
-  color: black;
+  color: white;
 }
+
+
+.view-code-button:hover {
+  border: 1px lightblue solid;
+}
+
+.watch-live-button:hover {
+  border: 1px white solid;
+}
+
 
 .contact-form-horizontal-line {
   width: 18rem;
