@@ -4,12 +4,14 @@ const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
-})
+});
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-  hamburger.classList.remove("active");
-  navMenu.classList.remove("active");
-}))
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
 
 function reveal() {
   let reveals = document.querySelectorAll(".reveal");
@@ -29,34 +31,35 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-
 const formsubmit = () => {
-
   let email = document.getElementById("email-address");
   let fullName = document.getElementById("full-name");
   let msg = document.getElementById("message");
-  let submit = document.getElementById("formSubmit")
+  let submit = document.getElementById("formSubmit");
 
   submit.addEventListener("click", (e) => {
     e.preventDefault();
     if (fullName.value == "" || email.value == "" || msg.value == "") {
       emptyerror();
     } else {
-      sendmail(fullName.value, email.value, msg.value,);
+      sendmail(fullName.value, email.value, msg.value);
       success();
+      email.value = "";
+      fullName.value = "";
+      msg.value = "";
     }
-  })
-}
+  });
+};
 formsubmit();
 
 function sendmail(fullName, email, msg) {
   const formData = {
     from_name: fullName,
     to_name: email,
-    message: msg
+    message: msg,
   };
 
-  emailjs.send('service_5un9k9c', 'template_73yyald', formData)
+  emailjs.send("service_5un9k9c", "template_73yyald", formData);
 }
 
 function emptyerror() {
@@ -68,5 +71,5 @@ function error() {
 }
 
 function success() {
-  swal("Success...", "Successfully sent message", "success")
+  swal("Success...", "Successfully sent message", "success");
 }
